@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
-</head>
+  <body>
+    <header class="header container">
+      <a href="/" class="logo">
+        <img class="logo__item" src="img/logo.svg" alt="Evelo" />
+      </a>
+    </header>
 
-<body>
-  <header class="header">
-    <div class="img__size">
-      <img class="img__item" src="img/60413ac4148564454bda134a_evello-logo-2 2.svg" alt="Evelo">
-    </div>
-  </header>
-
-  <main class="main container">
-    <h1 class="main__title">All good things come to thoose who wait...</h1>
-    <p class="main__text">Get notified when we launch! 🚀</p>
-    <form class="form" action="" method="">
-      <input class="input" type="email" placeholder="Your email">
-      <button class="button" type="submit">Notify me</button>
-    </form>
-  </main>
-
-</body>
-
+    <main class="container">
+      <h1 class="title">All good things come to thoose who wait...</h1>
+      <p class="text">Get notified when we launch! 🚀</p>
+      <form class="form" action="" method="">
+        <input
+          class="input form__input"
+          type="email"
+          placeholder="Your email"
+        />
+        <button class="button form__button" type="submit">Notify me</button>
+      </form>
+    </main>
+  </body>
 </html>
